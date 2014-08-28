@@ -1,0 +1,9 @@
+﻿<Window x:Class="MinecraftSharp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Minecraft#" Width="1360" Height="768" MinHeight="768" MinWidth="1360">
+    <Grid>
+        <ContentControl x:Name="MainContent" Panel.ZIndex="1"/>
+        <ContentControl x:Name="OverlayContent" Panel.ZIndex="999"/>
+    </Grid>
+</Window>

@@ -1,0 +1,4 @@
+MinecraftSharp
+==============
+
+Custom Minecraft Launcher

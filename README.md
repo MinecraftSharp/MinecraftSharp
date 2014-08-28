@@ -28,7 +28,7 @@ This will be worked on in the feature
 * Minecraft# Client. This WILL MEAN YOU ARE USING A 100% CUSTOM CLIENT. No java will be used
 * Minecraft++, A futureistic minecraft. Coded in c++, for max game performance [It will perform like c#, I am not a pro coder in c++ but I can still do it]
 * JarlessM IDE, A IDK (C# IDE To Code C# LOL, I will move it to C++) designed to make it easy to make Minecraft# Mods. Creating a new block will be as easy as:
-
+```
 MinecraftSharp.Mod.Block NewBlock = new MinecraftSharp.Mod.Block();
 //The Blocks name
 NewBlock.Name = "FireIce";
@@ -75,3 +75,4 @@ NewBlock.BreakReplace = 11; //If you break it will it drop a block. Use null to 
 MinecraftSharp.Mod.ModBlockControl Mod = new MinecraftSharp.Mod.ModBlockControl;
 Mod.Name = "Nether Enhance"
 Mod.AddBlock(NewBlock);
+```
